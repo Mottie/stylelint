@@ -1,44 +1,42 @@
 {
-  "_from": "stylelint",
+  "_args": [
+    [
+      "stylelint@8.0.0",
+      "C:\\stylelint"
+    ]
+  ],
+  "_from": "stylelint@8.0.0",
   "_id": "stylelint@8.0.0",
   "_inBundle": false,
   "_integrity": "sha512-k1GkRhOtghvYu5PWCdec7SNN22KZZLq4TL1vVyykBvHr91oUS7eVfX2IAZJjBpYKh9Gdep+AnSZCwuUn+J76Bw==",
   "_location": "/stylelint",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "stylelint",
+    "raw": "stylelint@8.0.0",
     "name": "stylelint",
     "escapedName": "stylelint",
-    "rawSpec": "",
+    "rawSpec": "8.0.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "8.0.0"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/stylelint/-/stylelint-8.0.0.tgz",
-  "_shasum": "87611211776cb315c93fcf6c58bc261d3c92612e",
-  "_spec": "stylelint",
+  "_spec": "8.0.0",
   "_where": "C:\\stylelint",
   "authors": [
     "David Clark",
     "Maxime Thirouin",
     "Richard Hallows"
   ],
-  "bin": {
-    "stylelint": "bin/stylelint.js"
-  },
   "bugs": {
     "url": "https://github.com/stylelint/stylelint/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
-    "autoprefixer": "^7.1.2",
     "balanced-match": "^1.0.0",
-    "chalk": "^2.0.1",
     "cosmiconfig": "^2.1.3",
     "debug": "^2.6.8",
     "execall": "^1.0.0",
@@ -73,7 +71,6 @@
     "svg-tags": "^1.0.0",
     "table": "^4.0.1"
   },
-  "deprecated": false,
   "description": "A mighty, modern CSS linter.",
   "devDependencies": {
     "benchmark": "^2.1.4",
