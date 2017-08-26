@@ -17,8 +17,13 @@ Steps to reproduce (broadly):
     * `property-no-vendor-prefix`
     * `selector-no-vendor-prefix`
     * `value-no-vendor-prefix`
-  * All `func` colors from the `lib/reference/namedColorData.js` file.
+  * All `func` colors from the `lib/reference/namedColorData.js` file (key and values).
+  * Block from `lib/rules/color-named/index.js` that accesses `func` colors in the `namedColorData.js` file.
   * All references to node's `fs` (file system) since the standalone version does not need to load in any files.
+
+* Modify:
+  * `lib/reference/namedColorData.js` - moved `hex` array from object directly to be a child of the color name.
+  * `lib/rules/color-named/index.js` - removed `hex` to directly access the value array modified in `namedColorData.js`.
 
 * At this point all the files were then copied back into the `node_modules` folder (in `folder2`) - mostly because I wasn't sure how to use browserify otherwise.
 * Run `browserify -r stylelint -o stylelint-bundle.js` in `folder2`.
