@@ -1,5 +1,9 @@
 # stylelint MOD
 
+**An automated build process is now available from the [stylelint-bundle](https://github.com/Mottie/stylelint-bundle/tree/master) repository**
+
+---
+
 Stripped down version of Stylelint to reduce the file size of the standalone version.
 
 Steps to reproduce (broadly):
