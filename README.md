@@ -1,6 +1,6 @@
 # stylelint MOD
 
-**An automated build process is now available from the [stylelint-bundle](https://github.com/Mottie/stylelint-bundle/tree/master) repository**
+**An automated build process is now available from the [stylelint-bundle](https://github.com/openstyles/stylelint-bundle) repository**
 
 ---
 
